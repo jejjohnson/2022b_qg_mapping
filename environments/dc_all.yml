@@ -1,0 +1,64 @@
+name: dc_2022b_qg
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.9
+# Standard Libraries
+- numpy             # Numerical Linear Algebra
+- scipy             # Scientific Computing
+- xarray            # Data structures
+- pandas            # Data structure
+- scikit-learn      # Machine Learning
+- scikit-image      # Image Processing
+- statsmodels       # Statistical Learning
+- pymc3             # Probabilistic programming library
+# Plotting
+- matplotlib
+- seaborn
+- bokeh
+- plotly::plotly==4.6.0
+- pyviz::geoviews
+- conda-forge::cartopy
+- datashader
+# Geospatial packages
+- geopandas
+- conda-forge::regionmask
+- conda-forge::xesmf
+- conda-forge::xcube
+- conda-forge::rioxarray
+- conda-forge::xmovie
+# Scale
+- cython
+- numba
+- dask              # Out-of-Core processing
+- dask-ml           # Out-of-Core machine learning
+# Storage
+- hdf5              # standard large storage h5
+- conda-forge::zarr
+# GUI
+- conda-forge::nb_conda_kernels     # Access to other conda kernels
+- conda-forge::nodejs               # for extensions in jupyterlab
+- conda-forge::tqdm       
+- pip
+- pip:
+  # Jupyter
+  - ipykernel
+  - ipywidgets
+  # Formatters
+  - black
+  - pylint
+  - isort
+  - flake8
+  - mypy
+  - pytest
+  - pyproject
+  # Extra
+  - "git+https://github.com/swartn/cmipdata.git"
+  - emukit
+  - netCDF4
+  - shapely
+  - affine
+  - netCDF4
+  - joblib          # Embarssingly parallel
+  - xmovie
