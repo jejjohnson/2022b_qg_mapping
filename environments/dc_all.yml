@@ -28,6 +28,7 @@ dependencies:
 - conda-forge::xcube
 - conda-forge::rioxarray
 - conda-forge::xmovie
+- conda-forge::xrft
 # Scale
 - cython
 - numba
@@ -61,4 +62,3 @@ dependencies:
   - affine
   - netCDF4
   - joblib          # Embarssingly parallel
-  - xmovie
