@@ -17,7 +17,7 @@ Steam Function       |  Potential Vorticity
 We have some source code available needed for the data loading, data visualization and statistics. To install please run the following command:
 
 ```bash
-conda env create -f environments.yml
+conda env create -f environments/dc_all.yml
 conda activate dc_2022b_qg
 ```
 
