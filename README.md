@@ -21,6 +21,8 @@ conda env create -f environments/dc_all.yml
 conda activate dc_2022b_qg
 ```
 
+**Note**: there have been reported problems with installing via the `conda` package manager. I would suggest using `mamba` (or updating your `conda` package manager as the latest update should have some `mamba` elements included - [see here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community)).
+
 ---
 ## Data
 
