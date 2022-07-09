@@ -3,7 +3,7 @@
 This repository contains codes and samples notebooks for generating and processing the QG mapping data challenge.
 
 
-Steam Function       |  Potential Vorticity
+Potential Vorticity       |  Stream Function
 :-------------------------:|:-------------------------:
  ![animation](assets/p_movie.gif)  |  ![animation](assets/q_movie.gif) 
  ![animation](assets/obs_p_movie.gif)  |  ![animation](assets/obs_q_movie.gif) 
